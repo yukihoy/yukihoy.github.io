@@ -1,15 +1,225 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+  <title>スマイル歯科医院</title>
 </head>
 <body>
+
+  <!-- header -->
+  <header class="header-container">
+    <div class="header-logo">
+      <img class="logo" src="img/smile-dental-clinic-logo.svg" alt="スマイル歯科医院">
+    </div>
+    <nav class="header-nav-container" id="headerNavContainer">
+      <ul class="header-nav">
+        <li>ホーム</li>
+        <li>医院紹介</li>
+        <li>スタッフ紹介</li>
+        <li>診療項目</li>
+        <li>アクセス・診療時間</li>
+      </ul>
+    </nav>
+    <i class='bx bx-menu hamburger-menu' id="hamburgerMenu"></i>
+    <div class="header-contact-form">
+      <img class="header-contact-form-btn" src="img/contact-form-button.svg" alt="お問い合わせ">
+    </div>
+  </header>
+
+  <!-- hero-header -->
+  <div class="hero-header">
+    <div class="hero-header-filter">
+      <div class="hero-header-logo">
+        <img class="hero-header-img" src="img/hero-header-contents.svg" alt="メインテキスト">
+      </div>
+    </div>    
+  </div>
+
+  <!-- clinic-detail-page -->
+  <div class="clinic-detail-page">
+    <h1 class="clinic-detail-heading">医院の特徴</h1>
+    <div class="feature-items">
+
+      <div class="feature-item">
+        <object class="feature-item-img" data="img/s-clinic-detail1.jpg" type="image/jpg"></object>
+        <div class="feature-item-contents">
+          <h2 class="feature-item-title">清潔な環境作りにこだわりを！</h2>
+          <p>患者様が安心・安全に受診いただけるよう、衛生管理の徹底を行なっています。<br>当院では、治療に使用する器具はもちろん、使い捨て手袋やエプロン等、院内感染につながるようなものを徹底して管理しています。<br>また、安心して治療していただける設備をそろえています。</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <object class="feature-item-img" data="img/s-clinic-detail2.jpg" type="image/jpg"></object>
+        <div class="feature-item-contents">
+          <h2 class="feature-item-title">抜かず・削らず・残す！</h2>
+          <p>当院では、可能な限り歯を抜かず、削らず、神経を残すように治療にあたっています。<br>大切な歯は１本しかありません。<br>極力抜歯はせず、削るべき患部は大きさを正確に判断し、神経は歯の寿命に関わるためなるべく残すように治療しています。</p>
+        </div>
+      </div>
+
+      <div class="feature-item">
+        <object class="feature-item-img" data="img/s-clinic-detail3.jpg" type="image/jpg"></object>
+        <div class="feature-item-contents">
+          <h2 class="feature-item-title">ベテランの歯科医師、<br>衛生士がいます！</h2>
+          <p>経験豊富な歯科医師が常駐し、治療に当たるので安心して診療いただけます。<br>また、歯科衛生士も多数在籍しております。<br>不安なことや相談などがあれば、いつでも対応できますので、安心してご来院ください。</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- kids-detail-page -->
+  <div class="kids-page">
+
+    <div class="kids-detail-container">
+      <div class="kids-image kids-image1">
+        <img class="first-kids-img" src="img/s-kids.jpg" alt="子供の写真">
+      </div>
+      <div class="kids-contents">
+        <h2 class="first-kids-heading">お子様に対しても優しく<br>丁寧な治療を心がけています！</h2>
+        <p>幼少期から成人になるまでの間の歯科治療や予防歯科は、今後の将来において非常に重要です。<br>そんな大切な時期に、お子様が歯医者に対してトラウマを抱えてしまうことは、少なくありません。<br>歯医者は怖くないところ、と思っていただけるようにお子様のペースに合わせて、優しく丁寧な治療を心がけています。</p>
+      </div>
+    </div>
+
+    <div class="kids-detail-container kids-detail-container2">
+      <div class="kids-image kids-image2">
+        <img class="second-kids-img" src="img/s-kidsroom.jpg" alt="キッズルーム">
+      </div>
+      <div class="kids-contents">
+        <h2 class="second-kids-heading">キッズスペース完備</h2>
+        <p>慣れない場所で不安なお子様の気持ちを少しでも和らげたい。<br>そんな想いから、当院ではお子様が少しでも気楽に過ごせるよう、キッズルームを完備しています。<br>治療の待ち時間を楽しく過ごしていただき、歯医者の雰囲気に慣れることで、お子さんが安心して参加できる歯科治療を目指しています。</p>
+      </div>
+    </div>
+
+    <div class="clinic-detail-page-btn">
+      <a href="#" class="btn kids-detail-btn">当院の特徴について（詳しくはこちら）</a>
+    </div>
+
+  </div>
+
+  <!-- staff-page -->
+  <div class="staff-page">
+    <h1 class="staff-page-heading">スタッフ紹介</h1>
+    <div class="staff-detail-container">
+      <div class="staff-page-image">
+        <img class="staff-img" src="img/s-staff-page.jpg" alt="スタッフの写真">
+      </div>
+
+      <div class="staff-page-contents">
+        <h2 class="staff-contents-heading">私たちがあなたの歯の健康を守ります！</h2>
+        <p>当院では、経験豊富な歯科医師や口腔環境の専門知識を持つ歯科衛生士が多数在籍しています。<br>当院自慢のスタッフをご紹介します。</p>
+        <div class="staff-page-btn">
+          <a href="#" class="btn staff-detail-btn">スタッフ紹介はこちらから</a>
+        </div>
+      </div>
+      
+    </div>
+
+  </div>
+
+  <!-- medical-item-page -->
+  <div class="medical-item-page">
+    <h1 class="medical-item-page-heading">診療項目</h1>
+    <div class="medical-page-text">
+      <p>当院では、お口の状態においてさまざまなお悩みを持ってらっしゃる患者様にお応えします。<br>
+      治療技術のみならず、設備面も安心してご来院いただけるよう取り組んでおります。
+      </p>
+    </div>
+    <div class="medical-items">
+      
+      <div class="medical-item">
+        <a class="medical-item1" href="#">一般歯科</a>
+      </div>
+
+      <div class="medical-item">
+        <a class="medical-item2" href="#">小児歯科</a>
+      </div>
+
+      <div class="medical-item">
+        <a class="medical-item3" href="#">予防歯科・各種検診</a>
+      </div>
+
+      <div class="medical-item">
+        <a class="medical-item4" href="#">矯正歯科</a>
+      </div>
+
+      <div class="medical-item">
+        <a class="medical-item5" href="#">入れ歯治療</a>
+      </div>
+
+      <div class="medical-item">
+        <a class="medical-item6" href="#">ホワイトニング</a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- access-page -->
+  <div class="access-page">
+    <h1 class="access-page-heading">アクセス・診療時間</h1>
+    <div class="access-page-logo">
+      <img class="access-page-logo-img" src="img/smile-dental-clinic-logo.svg" alt="スマイル歯科医院">
+    </div>
+    <div class="access-detail">
+      <p>大阪府大阪市笑顔町9999-9番地</p>
+      <div class="phone-number">
+        <i class='bx bxs-phone phone-icon'></i>
+        <p>03-9999-9999</p>
+      </div>
+    </div>
+    <div class="schedule">
+      <img class="schedule-img" src="img/schedule.svg" alt="診療時間の画像">
+      <div class="schedule-contents">
+        <p>▲ = 第2火曜日午後と、第3土曜日午後は休診とさせていただきます。<br>※緊急時には時間外でも診療可能な場合があるので、お電話にてお問い合わせ下さい。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- map -->
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8911.923717502803!2d135.49813647879!3d34.665918200783096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e71493ce71e9%3A0x5b59203ed8fd29bf!2z6YGT6aCT5aCA44Kw44Oq44Kz44K144Kk44Oz!5e0!3m2!1sja!2sjp!4v1649573142699!5m2!1sja!2sjp" width="414" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- footer -->
+  <footer class="footer-container">
+    <p>copyright ©︎ test site All right reserved</p>
+  </footer>
   
-  <h1>Hello Yukiho</h1>
+  <script src="./js/master.js"></script>
 
 </body>
 </html>
+
+<!-- 修正・追加 -->
+<!--  
+  １、モバイルサイトのハンバーガーメニューに動きをつける。
+  ２、デザインカンプの作り込み不足（余白などを正確に設定する）。ok
+  ３、診療項目ページのaタグテキストを一列に綺麗に揃える。ok
+  ４、使用画像の表示サイズを縮小する（大きいものをそのまま使ってしまった）。
+  ５、PC版スタッフページのボタン位置を設置できていない。ok
+  ６、ハンバーガーメニューが固定されてついてくる（ヘッダーにとどめたい）。←問題なし（あえて設置する）
+  ７、PC版ヘッダーのお問い合わせ表記が固定されてついてくる（ヘッダーにとどめたい）。←上記に同じ
+  ８、キッズルームの画像位置がずれてる。ok
+  ９、クリックできるボタンなどをそのままimgで作ったが、aタグやhtml,cssで作るべき？
+  １０、PC版診療項目ページを3列に並べる。ok
+  １１、医院紹介ページのPC版がうまくレスポンシブできていない。ok
+-->
+
+<!-- 反省点・改善点 -->
+<!-- 
+  １、ワイヤーフレーム、デザインカンプ作成の効率が悪い。
+  →adobe xdのコンポーネントなどの便利機能を正しく理解し直すべき。
+  ２、レスポンシブデザインなのに、PC版とMB版でレイアウトを変えすぎた？
+  ３、デザインカンプのファイルがぐちゃぐちゃになった。綺麗に作りたい。
+  ４、サイトが重くなるため、画像を圧縮？とにかく軽く作りたい。
+ -->
+
+ <!-- 
+   コンポーネント、マスターコンポーネント
+
+   ・スケジュール文章と縦をそろえる。
+
+   ・CTA →call to action
+  -->
