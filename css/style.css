@@ -120,7 +120,7 @@ body {
   .hero-header {
     width: 100%;
     height: 756px;
-    background-image: url(./img/smile-dental-clinic-mainpage.jpg);
+    background-image: url(/img/smile-dental-clinic-mainpage.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -463,7 +463,7 @@ body {
   .hero-header {
     width: 100%;
     height: 631px;
-    background-image: url(./img/smile-dental-clinic-mainpage.jpg);
+    background-image: url(/img/smile-dental-clinic-mainpage.jpg);
     background-size: cover;
     background-position: center;
     margin-top: 20px;
