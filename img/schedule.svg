@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="140" viewBox="0 0 500 140">
+  <g id="schedule" transform="translate(-59 -431)">
+    <rect id="schedule-container" width="500" height="140" transform="translate(59 431)" fill="#e0eeff"/>
+    <g id="schedule-time" transform="translate(10 1)">
+      <text id="受付時間" transform="translate(110 465)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">受付時間</tspan></text>
+      <text id="_9:00_12:30" data-name="9:00〜12:30" transform="translate(98 505)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">9:00〜12:30</tspan></text>
+      <text id="_16:00_19:30" data-name="16:00〜19:30" transform="translate(94 545)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">16:00〜19:30</tspan></text>
+    </g>
+    <g id="schedule-items">
+      <text id="月" transform="translate(233 465)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">月</tspan></text>
+      <text id="火" transform="translate(277 465)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">火</tspan></text>
+      <text id="水" transform="translate(321 465)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">水</tspan></text>
+      <text id="木" transform="translate(365 465)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">木</tspan></text>
+      <text id="金" transform="translate(409 465)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">金</tspan></text>
+      <text id="土" transform="translate(453 465)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">土</tspan></text>
+      <text id="日" transform="translate(497 465)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">日</tspan></text>
+      <circle id="楕円形_4" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(232 490)" fill="#75bee5"/>
+      <circle id="楕円形_4-2" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(276 490)" fill="#75bee5"/>
+      <circle id="楕円形_4-3" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(320 490)" fill="#75bee5"/>
+      <circle id="楕円形_4-4" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(364 490)" fill="#75bee5"/>
+      <circle id="楕円形_4-5" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(408 490)" fill="#75bee5"/>
+      <circle id="楕円形_4-6" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(452 490)" fill="#75bee5"/>
+      <circle id="楕円形_4-7" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(232 531)" fill="#75bee5"/>
+      <circle id="楕円形_4-8" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(320 531)" fill="#75bee5"/>
+      <circle id="楕円形_4-9" data-name="楕円形 4" cx="7.5" cy="7.5" r="7.5" transform="translate(408 531)" fill="#75bee5"/>
+      <line id="線_1" data-name="線 1" y1="13.5" x2="12" transform="translate(497.5 490)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="線_2" data-name="線 2" y1="13.5" x2="12" transform="translate(499 531)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="線_3" data-name="線 3" y1="13.5" x2="12" transform="translate(367 532.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      <path id="多角形_1" data-name="多角形 1" d="M7.5,0,15,15H0Z" transform="translate(276 531)" fill="#b1b1b1"/>
+      <path id="多角形_2" data-name="多角形 2" d="M7.5,0,15,15H0Z" transform="translate(452 531)" fill="#b1b1b1"/>
+    </g>
+  </g>
+</svg>

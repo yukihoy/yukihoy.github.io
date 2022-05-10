@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="80" viewBox="0 0 350 80">
+  <g id="contents-button" transform="translate(-798 -257)">
+    <rect id="contents-btn-container" width="350" height="80" transform="translate(798 257)" fill="#e0eeff"/>
+    <text id="ご予約_お問い合わせはこちらから" data-name="ご予約・お問い合わせはこちらから" transform="translate(861 284)" fill="#a7a7a7" font-size="14" font-family="HiraMinPro-W3, Hiragino Mincho Pro"><tspan x="0" y="0">ご予約・お問い合わせはこちらから</tspan></text>
+    <g id="phone-number" transform="translate(8 4)">
+      <text id="_03-9999-9999" data-name="03-9999-9999" transform="translate(905 312)" fill="#a7a7a7" font-size="20" font-family="Charter-BoldItalic, Charter" font-weight="700" font-style="italic" letter-spacing="0.1em"><tspan x="0" y="0">03-9999-9999</tspan></text>
+      <path id="Icon_awesome-phone" data-name="Icon awesome-phone" d="M19.273.961,15.21.023a.944.944,0,0,0-1.074.543L12.261,4.941a.935.935,0,0,0,.27,1.094L14.9,7.972a14.477,14.477,0,0,1-6.922,6.922L6.039,12.527a.936.936,0,0,0-1.094-.27L.57,14.132A.949.949,0,0,0,.023,15.21l.937,4.062A.937.937,0,0,0,1.875,20,18.123,18.123,0,0,0,20,1.875.936.936,0,0,0,19.273.961Z" transform="translate(873.001 295.001)" fill="#a7a7a7"/>
+    </g>
+  </g>
+</svg>
